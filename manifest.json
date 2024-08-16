@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Cube Chestshop Addon V1.0.0",
+        "description": "The best, simple and free chestshop addon for your SMP. §c(Beta API required)\n§rMade by jasonlaubb",
+        "uuid": "a9cd8531-e852-438b-a479-46998df309f9",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 20]
+    },
+    "metadata": {
+        "authors": ["jasonlaubb"],
+        "license": "MIT",
+        "url": "https://github.com/jasonlaubb/Cube-ChestShop"
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "af23acd2-5f17-4f28-811e-279d7ca33de6",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "3aea0cbe-e157-4e9f-b7a1-8cb4056fed35",
+            "version": [0, 0, 1],
+            "entry": "scripts/scripts.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.14.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0"
+        }
+    ]
+}
